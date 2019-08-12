@@ -1,4 +1,4 @@
 echo
 echo "Installing dotnet requirements"
-brew cask install dotnet dotnet-sdk
-source ${MY_DIR}/scripts/opt-in/dotnet-tools.sh
+brew cask install dotnet-sdk
+source ./scripts/opt-in/dotnet-tools.sh

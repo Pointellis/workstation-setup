@@ -16,14 +16,7 @@ Open up Terminal.app and run the following commands:
 xcode-select --install
 mkdir -p ~/workspace
 cd ~/workspace
-git clone https://github.com/pivotal/workstation-setup.git
+git clone https://github.com/Pointellis/workstation-setup.git
 cd workstation-setup
-```
-
-### Engineering Machine
-
-If you're setting up an engineering machine choose which languages to install:
-
-```sh
-./setup.sh dotnet node
+./setup.sh
 ```
