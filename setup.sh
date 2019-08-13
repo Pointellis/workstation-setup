@@ -35,4 +35,6 @@ source ${MY_DIR}/scripts/common/configuration-osx.sh
 source ${MY_DIR}/scripts/common/configurations.sh
 
 source ${MY_DIR}/scripts/opt-in/dotnet.sh
+dotnet dev-certs https --trust
+
 source ${MY_DIR}/scripts/opt-in/node.sh
