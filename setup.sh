@@ -41,3 +41,5 @@ source ${MY_DIR}/scripts/opt-in/node.sh
 
 source ${MY_DIR}/scripts/opt-in/ruby.sh
 sudo gem install pact-provider-verifier
+
+brew install dependency-check
